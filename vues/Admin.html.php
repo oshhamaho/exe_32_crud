@@ -2,15 +2,18 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Accueil du site</title>
+    <title>Admin du site</title>
 </head>
 <body>
-<h1>Accueil</h1>
-<div id="menu"><a href="?admin">Administration des articles</a></div>
+<h1>Admin</h1>
+<div id="menu"><a href="./">Retour sur l'accueil</a></div>
 <div id="contenu">
+   <menu>
+       <ul>
+           <li><a href="?admin&ajout">Ajouter un article</a></li>
+       </ul>
+   </menu>
     <?php
-
-
     // pas d'articles
     if ($articles == false) {
         echo "<h2>Pas encore d'articles!</h2>";

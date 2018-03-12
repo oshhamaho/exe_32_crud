@@ -18,6 +18,8 @@ if(empty($_GET)){
 }elseif (isset($_GET['article'])){
     require_once "controller/ArticleController.php";
 
+}elseif (isset($_GET['admin'])){
+    require_once "controller/AdminController.php";
 // sinon (existence d'une autre autre variable get que celles attendues) => Accueil
 }else{
     require_once "controller/AccueilController.php";
