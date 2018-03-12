@@ -1,5 +1,5 @@
 # exercice MVC  et création de CRUD
-##  basé sur le dossier exe_32 et la bdd exe_32
+##  basé sur le dossier 32_exe et la bdd 32_exe
 
 ### Principe:
 
@@ -9,7 +9,7 @@ Avec son controleur, ses modeles et ses vues
 !!! Attention. Pour le moment cette administration est publique
 
 #### Affichez sur la page d'accueil 
-tous les résumés d'articles ('exe_32.arti') avec leur 'titre', un 'texte' de 150 caractères avec 'lire la suite' ayant un lien envoyant vers '?article=idarti', suivit de la date de publication 'publie', le tout classé par 'publie' DESC
+tous les résumés d'articles ('32_exe.arti') avec leur 'titre', un 'texte' de 150 caractères avec 'lire la suite' ayant un lien envoyant vers '?article=idarti', suivit de la date de publication 'publie', le tout classé par 'publie' DESC
 
 Aucune jointure n'est nécessaire !
 #### Affichez le détail d'un article
