@@ -8,9 +8,12 @@
 <h1>Admin</h1>
 <div id="menu"><a href="./">Retour sur l'accueil</a></div>
 <div id="contenu">
+   <menu>
+       <ul>
+           <li><a href="?admin&ajout">Ajouter un article</a></li>
+       </ul>
+   </menu>
     <?php
-
-
     // pas d'articles
     if ($articles == false) {
         echo "<h2>Pas encore d'articles!</h2>";
