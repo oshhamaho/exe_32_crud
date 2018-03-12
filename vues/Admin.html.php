@@ -23,7 +23,7 @@
             <h3><a href="?article=<?= $item['idarti'] ?>"><?= $item['titre'] ?></a></h3>
             <!-- ici le foreach pour les categ -->
             <p><?= $item['texte'] ?> ... <a href="?article=<?= $item['idarti'] ?>">Lire la suite</a></p>
-            <p><?= $item['publie'] ?></p>
+            <p><?= $item['publie'] ?> <img width="16px" height="16px" src="vues/imgs/update.png" atl="Modifier l'article" onclick="document.location='?admin&modif=<?= $item['idarti'] ?>';"> | <img width="16px" height="16px" src="vues/imgs/delete.png" atl="Supprimer l'article" onclick="document.location='?admin&sup=<?= $item['idarti'] ?>';"></p>
             <hr>
             <?php
         }
