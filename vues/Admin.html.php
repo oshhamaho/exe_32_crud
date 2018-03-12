@@ -5,6 +5,7 @@
     <title>Admin du site</title>
 </head>
 <body>
+
 <h1>Admin du site</h1>
 <div id="menu">
     <a href="./">Retour sur l'accueil</a>
@@ -16,6 +17,7 @@
     <?php
 
 
+
     // pas d'articles
     if ($articles == false) {
         echo "<h2>Pas encore d'articles!</h2>";
@@ -23,10 +25,12 @@
         foreach ($articles AS $item) {
             ?>
             <h3><a href="?article=<?= $item['idarti'] ?>"><?= $item['titre'] ?></a></h3>
+
             <p><?= $item['texte'] ?> ... <a href="?article=<?= $item['idarti'] ?>">Lire la suite</a></p>
             <p><?= $item['publie'] ?>
                |  <img width="16px" height="16px" src="vues/img/update.png" alt="Modifier l'article" onclick="document.location='?admin&modif=<?= $item['idarti'] ?>';" /> | <img width="16px" height="16px" src="vues/img/delete.png" alt="Supprimer l'article" onclick="document.location='?admin&sup=<?= $item['idarti'] ?>';" />
             </p>
+
             <hr>
             <?php
         }
