@@ -1,5 +1,7 @@
+
 # exercice MVC et création de CRUD
 ## exercice basé sur le dossier 32_exe et la bdd 32_exe
+
 ### Principe:
 #### Affichez sur la page d'accueil 
 tous les résumés d'articles ('32_exe.arti') avec leur 'titre', un 'texte' de 150 caractères avec 'lire la suite' ayant un lien envoyant vers '?article=idarti', suivit de la date de publication 'publie', le tout classé par 'publie' DESC
