@@ -18,15 +18,13 @@ if(empty($_GET)){
 }elseif (isset($_GET['article'])){
     require_once "controller/ArticleController.php";
 
-<<<<<<< HEAD
-}elseif (isset($_GET['admin'])){
-    require_once "controller/AdminController.php";
-=======
+
+
 // si on est dans l'administration
 }elseif (isset($_GET['admin'])){
     require_once "controller/AdminController.php";
 
->>>>>>> 38689189f5aec6ba045ef116569f2d24d9e2a4b3
+
 // sinon (existence d'une autre autre variable get que celles attendues) => Accueil
 }else{
     require_once "controller/AccueilController.php";
